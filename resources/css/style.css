@@ -1,0 +1,135 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Navigation Bar */
+
+.top-bar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+}
+
+.logo {
+  padding-left: 10px;
+  display: block;
+  height: 50px;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.nav-links a {
+  color: seashell;
+}
+
+.nav-links span {
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+
+/* Main Banner */
+
+.mission-block {
+  position: relative;
+  top: 60px;
+  height: 700px;
+  background-color: black;
+  background-image:;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-block img {
+  position: absolute;
+  max-width:100%;
+  max-height:100%;
+}
+
+.mission-block-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  background-color: black;
+  z-index: 2;
+}
+
+/* Featured Gallery */
+
+.tea-month-gallery {
+  display: flex;
+  justify-content: center;;
+  flex-wrap: wrap;
+}
+
+.tea-berry, .tea-rum, .donuts, .myrtle, .bedford {
+  width: 300px;
+  height: 200px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tea-image-box {
+  max-width:100%;
+  max-height:100%;
+}
+
+
+/* Location */
+
+.locations {
+  height: 500px;
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: cover;
+  position: relative;
+  top: 60px;
+}
+
+.location-boxes {
+  display:flex;
+  justify-content: center;;
+  margin-top: 15px;
+  opacity: 1;
+}
+
+.downtown-box, .bayside-box, .oakdale-box {
+  width: 300px;
+  background-color: black;
+  margin: 0px 20px;
+}
+
+/* contact-us */
+
+.contact-us {
+  position: relative;
+  top: 60px;
+  height: 200px;
+}
+
+/*Footer */
+
+footer {
+  position: relative;
+  top: 30px;
+  text-align: left;
+  padding-left: 20px;
+  border-top: seashell solid 1px;
+}
